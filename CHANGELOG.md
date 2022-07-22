@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/Abdellaharrad/versiontest/compare/v1.7.14...v1.8.0) (2022-07-22)
+
+
+### Features
+
+* semantic-release ([8f246ce](https://github.com/Abdellaharrad/versiontest/commit/8f246ce1f26667022ea8d6c0cb539dc54d1c8cfb))
+
 ## [1.7.14](https://github.com/Abdellaharrad/versiontest/compare/v1.7.13...v1.7.14) (2022-07-22)
 
 
