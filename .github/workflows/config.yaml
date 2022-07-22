@@ -35,6 +35,8 @@ jobs:
           echo $RELEASE_PATCH
         env:
           NEW_RELEASE_PUBLISHED: true
+          GITHUB_TOKEN: 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
+          NPM_TOKEN: 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
 
 
 
