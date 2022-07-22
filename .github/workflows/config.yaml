@@ -29,7 +29,7 @@ jobs:
           NPM_TOKEN: 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
 
       - run: |
-          echo ${{RELEASE_VERSION}}
+          echo $RELEASE_VERSION
           echo $RELEASE_MAJOR
           echo $RELEASE_MINOR
           echo $RELEASE_PATCH

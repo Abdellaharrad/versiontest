@@ -7,6 +7,5 @@
       "@semantic-release/git"
     ],
   "repositoryUrl":"https://github.com/Abdellaharrad/versiontest.git",
-  "ci": false,
-  "private": true
+  "ci": false
 }
