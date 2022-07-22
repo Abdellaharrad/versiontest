@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/Abdellaharrad/versiontest/compare/v1.2.1...v1.2.2) (2022-07-22)
+
+
+### Performance Improvements
+
+* semantic-release ([f5e2861](https://github.com/Abdellaharrad/versiontest/commit/f5e286111b4ba88395d6390c0d4d90d97e2f9dbb))
+
 ## [1.2.1](https://github.com/Abdellaharrad/versiontest/compare/v1.2.0...v1.2.1) (2022-07-22)
 
 
