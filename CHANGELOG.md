@@ -1,3 +1,14 @@
+# [1.4.0](https://github.com/Abdellaharrad/versiontest/compare/v1.3.0...v1.4.0) (2022-07-22)
+
+
+### Features
+
+* semantic-release ([4ef141c](https://github.com/Abdellaharrad/versiontest/commit/4ef141c65707a1b1120dacc514798a929854004a))
+* semantic-release ([4a923b2](https://github.com/Abdellaharrad/versiontest/commit/4a923b253c1747da0f0c4fcc93c48641d7dffcb6))
+* semantic-release ([e9ed69d](https://github.com/Abdellaharrad/versiontest/commit/e9ed69db84b17af0cf826ffba063901cd6a7cd89))
+* semantic-release ([7bdb7ba](https://github.com/Abdellaharrad/versiontest/commit/7bdb7ba9fa5e4a6b903c4ee04b837ed1aefb5f24))
+* semantic-release ([9e5784e](https://github.com/Abdellaharrad/versiontest/commit/9e5784ef09039f2df499b4841776db4d7899fa91))
+
 # [1.3.0](https://github.com/Abdellaharrad/versiontest/compare/v1.2.2...v1.3.0) (2022-07-22)
 
 
