@@ -14,6 +14,7 @@ jobs:
       - name: Execute Semantic Release
         id: semantic
         run: |
+          npm i @semantic-release/apm-config
           npm i @semantic-release/changelog
           npm i @semantic-release/git
           npm i @semantic-release/github
@@ -26,6 +27,7 @@ jobs:
         id: semanticre  # Need an `id` for output variables
         env:
           GITHUB_TOKEN: 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
+        extends: '@semantic-release/apm-config'
       - name: test
         run:  echo ${{ steps.semanticre.outputs.new_release_version }}
 
