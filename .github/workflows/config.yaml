@@ -18,7 +18,6 @@ jobs:
       - name: Execute Semantic Release
         id: semantic
         run: |
-          npm i @semantic-release/changelog
           npm i @semantic-release/git
           npm i @semantic-release/github
           npx semantic-release
