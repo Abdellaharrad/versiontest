@@ -26,7 +26,8 @@ jobs:
         id: semanticre  # Need an `id` for output variables
         env:
           GITHUB_TOKEN: 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
-      - run:  echo ${{ steps.semanticre.outputs.new_release_version }}
+      - name: test
+        run:  echo ${{ steps.semanticre.outputs.new_release_version }}
 
 
 
