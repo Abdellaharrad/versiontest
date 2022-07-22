@@ -22,14 +22,15 @@ jobs:
         env:
           GITHUB_TOKEN: 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
 
-      - name: Semantic
-        uses: cycjimmy/semantic-release-action@v3
-        id: semanticre  # Need an `id` for output variables
-        env:
-          GITHUB_TOKEN: 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
-        extends: '@semantic-release/apm-config'
+      - name: "call action"
+        id: last_release
+        uses: InsonusK/get-latest-release@v1.0.1
+        with:
+          myToken: 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
+          exclude_types: "release"
+          view_top: 1
       - name: test
-        run:  echo ${{ steps.semanticre.outputs.new_release_version }}
+        run:  echo ${{ steps.last_release.outputs.id }}
 
 
 
