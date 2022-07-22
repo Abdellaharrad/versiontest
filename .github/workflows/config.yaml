@@ -11,13 +11,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Get latest release of NodeJS
-        uses: rez0n/actions-github-release@main
-        id: node_release
-        env:
-          token: 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
-          repository: "Abdellaharrad/versiontest"
-          type: "latest"
+      - id: keydb
+        uses: pozetroninc/github-action-get-latest-release@master
+        with:
+          owner: Abdellaharrad
+          repo: versiontest
 
       - name: Execute Semantic Release
         id: semantic
@@ -26,6 +24,6 @@ jobs:
           npm i @semantic-release/git
           npm i @semantic-release/github
           npx semantic-release
-          echo ${{ steps.node_release.outputs.release }}
+          echo ${{ steps.keydb.outputs.release }}
         env:
           GITHUB_TOKEN: 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
