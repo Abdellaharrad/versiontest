@@ -21,16 +21,19 @@ jobs:
           npx semantic-release
         env:
           GITHUB_TOKEN: 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
+          NPM_TOKEN:  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
 
-      - name: "call action"
-        id: last_release
-        uses: InsonusK/get-latest-release@v1.0.1
-        with:
-          myToken: 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
-          exclude_types: "release"
-          view_top: 1
-      - name: test
-        run:  echo " id- ${{steps.last_release.outputs.created_atd}}"
+      - uses: codfish/semantic-release-action@v1
+        env:
+          GITHUB_TOKEN: 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
+          NPM_TOKEN: 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
+
+      - run: |
+          echo $RELEASE_VERSION
+          echo $RELEASE_MAJOR
+          echo $RELEASE_MINOR
+          echo $RELEASE_PATCH
+
 
 
 
