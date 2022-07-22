@@ -1,0 +1,20 @@
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  release:
+    name: Semantic Release
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Execute Semantic Release
+        id: semantic
+        run: |
+          npx semantic-release
+        env:
+          GITHUB_TOKEN: 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
