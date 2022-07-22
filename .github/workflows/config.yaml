@@ -30,7 +30,7 @@ jobs:
           exclude_types: "release"
           view_top: 1
       - name: test
-        run:  echo " id- ${{ steps.last_release.outputs.id }}"
+        run:  echo " id- ${{ steps.last_release.outputs.created_atd }}"
 
 
 
