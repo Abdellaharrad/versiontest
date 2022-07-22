@@ -11,6 +11,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+      - name: Get latest release of NodeJS
+        uses: rez0n/actions-github-release@main
+        id: node_release
+        env:
+          token: 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
+          repository: "nodejs/node"
+          type: "latest"
 
       - name: Execute Semantic Release
         id: semantic
@@ -19,14 +26,6 @@ jobs:
           npm i @semantic-release/git
           npm i @semantic-release/github
           npx semantic-release
-          git log > C:\Abdellah\4IIR\StageOritech\testVersioning\Versioning\.github\workflows\test.txt
+          echo ${{ steps.node_release.outputs.release }}
         env:
           GITHUB_TOKEN: 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
-      - name: Get latest release of NodeJS
-        uses: rez0n/actions-github-release@main
-        id: node_release
-        env:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          repository: "nodejs/node"
-          type: "latest"
-        run: echo ${{ steps.node_release.outputs.release }}
