@@ -33,6 +33,8 @@ jobs:
           echo $RELEASE_MAJOR
           echo $RELEASE_MINOR
           echo $RELEASE_PATCH
+        env:
+          NEW_RELEASE_PUBLISHED: true
 
 
 
