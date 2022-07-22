@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/Abdellaharrad/versiontest/compare/v1.11.0...v1.12.0) (2022-07-22)
+
+
+### Features
+
+* semantic-release ([0ceeee3](https://github.com/Abdellaharrad/versiontest/commit/0ceeee3a82b484fa57a894f8fecc344244a4be1e))
+
 # [1.11.0](https://github.com/Abdellaharrad/versiontest/compare/v1.10.0...v1.11.0) (2022-07-22)
 
 
