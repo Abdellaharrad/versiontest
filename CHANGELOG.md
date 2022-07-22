@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/Abdellaharrad/versiontest/compare/v1.1.5...v1.1.6) (2022-07-22)
+
+
+### Bug Fixes
+
+* **test:** semantic-release ([35c71aa](https://github.com/Abdellaharrad/versiontest/commit/35c71aa1b3f2525fbfaf7de840d9ef8d100fe0f1))
+
 ## [1.1.5](https://github.com/Abdellaharrad/versiontest/compare/v1.1.4...v1.1.5) (2022-07-22)
 
 
