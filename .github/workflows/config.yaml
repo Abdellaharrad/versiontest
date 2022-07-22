@@ -16,7 +16,7 @@ jobs:
         id: node_release
         env:
           token: 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
-          repository: "nodejs/node"
+          repository: "Abdellaharrad/versiontest"
           type: "latest"
 
       - name: Execute Semantic Release
