@@ -11,6 +11,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+      - uses: codfish/semantic-release-action@v1
 
 
       - name: Execute Semantic Release
@@ -20,6 +21,6 @@ jobs:
           npm i @semantic-release/git
           npm i @semantic-release/github
           npx semantic-release
-          echo ${{ steps.semantic.outputs.release }}
+          echo $RELEASE_VERSION
         env:
           GITHUB_TOKEN: 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
