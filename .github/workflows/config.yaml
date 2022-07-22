@@ -23,20 +23,12 @@ jobs:
           GITHUB_TOKEN: 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
           NPM_TOKEN:  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
 
-      - uses: codfish/semantic-release-action@v1
+      - name: Dump env
+        run: env | sort
+      - name: Dump GitHub context
         env:
-          GITHUB_TOKEN: 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
-          NPM_TOKEN: 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
-
-      - run: |
-          echo" $RELEASE_VERSION"
-          echo $RELEASE_MAJOR
-          echo $RELEASE_MINOR
-          echo $RELEASE_PATCH
-        env:
-          NEW_RELEASE_PUBLISHED: true
-          GITHUB_TOKEN: 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
-          NPM_TOKEN: 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
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: echo "$GITHUB_CONTEXT"
 
 
 
