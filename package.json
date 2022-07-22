@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@semantic-release/apm-config": "^9.0.1",
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^8.0.5"
