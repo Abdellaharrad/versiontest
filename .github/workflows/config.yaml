@@ -23,7 +23,9 @@ jobs:
           GITHUB_TOKEN: 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
           NPM_TOKEN:  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
       - name: Dump GitHub context
-        run: echo ${{ github.event.release.tag_name }}
+        run: echo A comment on issue $NUMBER
+        env:
+          NUMBER: ${{ github.event.issue.number }}
 
 
 
