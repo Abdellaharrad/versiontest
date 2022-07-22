@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: test
-      - run: npm i @semantic-release/changelog
+        run: npm i @semantic-release/changelog
 
       - name: Checkout
         uses: actions/checkout@v2
