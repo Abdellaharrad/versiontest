@@ -1,3 +1,10 @@
+## [1.14.2](https://github.com/Abdellaharrad/versiontest/compare/v1.14.1...v1.14.2) (2022-07-25)
+
+
+### Bug Fixes
+
+* semantic-release ([fe394b6](https://github.com/Abdellaharrad/versiontest/commit/fe394b68433b2b32ec548059331ed3e64613b4fa))
+
 ## [1.14.1](https://github.com/Abdellaharrad/versiontest/compare/v1.14.0...v1.14.1) (2022-07-25)
 
 
