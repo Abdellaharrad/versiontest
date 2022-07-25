@@ -19,7 +19,7 @@ jobs:
 
       - uses: "finnp/create-file-action@master"
         env:
-          FILE_NAME: "dir/fileName.txt"
+          FILE_NAME: "./fileName.txt"
           FILE_DATA: "${{ steps.semantic.outputs.last_release_version }}"
       - name: Execute Semantic Release
         run: |
