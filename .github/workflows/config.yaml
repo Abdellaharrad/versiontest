@@ -11,17 +11,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Execute Semantic Release
-        id: semantic
-        run: |
-          npm i @semantic-release/apm-config
-          npm i @semantic-release/changelog
-          npm i @semantic-release/git
-          npm i @semantic-release/github
-          npx semantic-release
-        env:
-          GITHUB_TOKEN: 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
-          NPM_TOKEN:  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
       - name: Gets semantic release info
         id: semantic_release_info
         uses: jossef/action-semantic-release-info@v1
