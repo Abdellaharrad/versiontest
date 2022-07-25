@@ -1,3 +1,10 @@
+## [1.14.36](https://github.com/Abdellaharrad/versiontest/compare/v1.14.35...v1.14.36) (2022-07-25)
+
+
+### Performance Improvements
+
+* tes ([8d954a7](https://github.com/Abdellaharrad/versiontest/commit/8d954a72b00a178eefd881c950364f0cc3e68677))
+
 ## [1.14.35](https://github.com/Abdellaharrad/versiontest/compare/v1.14.34...v1.14.35) (2022-07-25)
 
 
