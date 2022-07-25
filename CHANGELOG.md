@@ -1,3 +1,10 @@
+## [1.14.25](https://github.com/Abdellaharrad/versiontest/compare/v1.14.24...v1.14.25) (2022-07-25)
+
+
+### Bug Fixes
+
+* tes ([2660ec7](https://github.com/Abdellaharrad/versiontest/commit/2660ec730a2a0c15d2946a2cb32385e790e72ffa))
+
 ## [1.14.24](https://github.com/Abdellaharrad/versiontest/compare/v1.14.23...v1.14.24) (2022-07-25)
 
 
