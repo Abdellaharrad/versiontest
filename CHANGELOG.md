@@ -1,3 +1,10 @@
+## [1.16.1](https://github.com/Abdellaharrad/versiontest/compare/v1.16.0...v1.16.1) (2022-07-25)
+
+
+### Bug Fixes
+
+* tes ([a33665d](https://github.com/Abdellaharrad/versiontest/commit/a33665d92c6d13f6eb1d9076bcaba0f3ae0503fc))
+
 # [1.16.0](https://github.com/Abdellaharrad/versiontest/compare/v1.15.0...v1.16.0) (2022-07-25)
 
 
