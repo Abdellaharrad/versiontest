@@ -20,10 +20,8 @@ jobs:
       - name: Do something when a new release published
         if: steps.semantic.outputs.new_release_published == 'true'
         run: |
-          touch .Renviron
+          echo ${{ steps.semantic.outputs.last_release_version }} >> test.txt
         shell: bash
-         
-
       - name: Execute Semantic Release
         run: |
           npm i @semantic-release/apm-config
