@@ -22,10 +22,12 @@ jobs:
         env:
           GITHUB_TOKEN: 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
           NPM_TOKEN:  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
-      - name: Dump GitHub context
-        run: echo A comment on issue $NUMBER
+      - name: Gets semantic release info
+        id: semantic_release_info
+        uses: jossef/action-semantic-release-info@v1
         env:
-          NUMBER: ${{ github.event.issue.number }}
+          GITHUB_TOKEN: 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
+      - run: git tag ${{ steps.semantic_release_info.outputs.git_tag }}
 
 
 
