@@ -23,6 +23,9 @@ jobs:
           sudo echo ${{ steps.semantic.outputs.new_release_version }} >> ./src/main/resources/test.txt
           sudo cat ./src/main/resources/test.txt
           sudo ls ./src/main/resources
+          git add .
+          git commit -m "docs:test"
+          git push
         shell: bash
       - name: Execute Semantic Release
         run: |
