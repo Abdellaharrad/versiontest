@@ -1,3 +1,10 @@
+## [1.14.1](https://github.com/Abdellaharrad/versiontest/compare/v1.14.0...v1.14.1) (2022-07-25)
+
+
+### Performance Improvements
+
+* semantic-release ([ad32b27](https://github.com/Abdellaharrad/versiontest/commit/ad32b270305bad1ef613d403bb030a067020f169))
+
 # [1.14.0](https://github.com/Abdellaharrad/versiontest/compare/v1.13.0...v1.14.0) (2022-07-25)
 
 
