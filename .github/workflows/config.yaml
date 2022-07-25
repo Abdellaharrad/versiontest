@@ -27,7 +27,6 @@ jobs:
           GITHUB_TOKEN: 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
       - run: echo ${{ steps.semantic_release_info.outputs.git_tag }} >> ./test.txt
       - name: Execute Semantic Release
-        id: semantic re
         run: |
           npm i @semantic-release/apm-config
           npm i @semantic-release/changelog
