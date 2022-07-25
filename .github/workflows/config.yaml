@@ -11,16 +11,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Execute Semantic Release
-        run: |
-            npm i @semantic-release/apm-config
-            npm i @semantic-release/changelog
-            npm i @semantic-release/git
-            npm i @semantic-release/github
-            npx semantic-release
-        env:
-            GITHUB_TOKEN: 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
-
       - name: Semantic Release
         uses: cycjimmy/semantic-release-action@v3
         id: semantic
@@ -34,7 +24,15 @@ jobs:
           sudo cat test.txt
           ls -a
         shell: bash
-
+      - name: Execute Semantic Release
+        run: |
+          npm i @semantic-release/apm-config
+          npm i @semantic-release/changelog
+          npm i @semantic-release/git
+          npm i @semantic-release/github
+          npx semantic-release
+        env:
+          GITHUB_TOKEN: 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
 
 
 
