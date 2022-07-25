@@ -21,7 +21,8 @@ jobs:
         if: steps.semantic.outputs.new_release_published == 'true'
         run: |
           sudo touch ./test.txt
-          echo ${{ steps.semantic.outputs.last_release_version }} 
+          echo ${{ steps.semantic.outputs.last_release_version }} >> ./test.txt
+          cat ./test.txt
           ls -a
         shell: bash
       - name: Execute Semantic Release
