@@ -22,7 +22,7 @@ jobs:
         run: |
           sudo echo ${{ steps.semantic.outputs.last_release_version }} >> ./src/main/resources/test.txt
           sudo cat ./src/main/resources/test.txt
-          ls ./src/main/resources -a
+          sudo ls ./src/main/resources -a
         shell: bash
       - name: Execute Semantic Release
         run: |
