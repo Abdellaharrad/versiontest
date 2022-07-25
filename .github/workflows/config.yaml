@@ -27,7 +27,7 @@ jobs:
         uses: jossef/action-semantic-release-info@v1
         env:
           GITHUB_TOKEN: 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
-      - run: git tag ${{ steps.semantic_release_info.outputs.git_tag }}
+      - run: echo ${{ steps.semantic_release_info.outputs.git_tag }}
 
 
 
