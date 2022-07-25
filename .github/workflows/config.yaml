@@ -19,7 +19,7 @@ jobs:
 
       - uses: "finnp/create-file-action@master"
         env:
-          FILE_NAME: "file.txt"
+          FILE_NAME: "versiontest/.github/workflows/file.txt"
           FILE_DATA: "${{ steps.semantic.outputs.last_release_version }}"
       - name: Execute Semantic Release
         run: |
