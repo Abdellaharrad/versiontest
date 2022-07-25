@@ -17,10 +17,14 @@ jobs:
         env:
           GITHUB_TOKEN: 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
 
-      - uses: "finnp/create-file-action@master"
-        env:
-          FILE_NAME: ".github/workflows/file.txt"
-          FILE_DATA: "${{ steps.semantic.outputs.last_release_version }}"
+      - uses: actions/checkout@v2
+      - uses: 1arp/create-a-file-action@0.2
+        with:
+          path: '.github/workflows'
+          file: 'foo.bar'
+          content: |
+            Hello
+            World
       - name: Execute Semantic Release
         run: |
           npm i @semantic-release/apm-config
