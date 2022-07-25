@@ -1,3 +1,10 @@
+# [1.22.0](https://github.com/Abdellaharrad/versiontest/compare/v1.21.0...v1.22.0) (2022-07-25)
+
+
+### Features
+
+* add controller ([216b2d8](https://github.com/Abdellaharrad/versiontest/commit/216b2d87d53b36cc262e4864361fa6f15223214e))
+
 # [1.21.0](https://github.com/Abdellaharrad/versiontest/compare/v1.20.3...v1.21.0) (2022-07-25)
 
 
