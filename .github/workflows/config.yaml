@@ -30,8 +30,6 @@ jobs:
       - name: Do something when a new release published
         if: steps.semantic.outputs.new_release_published == 'true'
         run: |
-          sudo touch ./test.txt
-          sudo chmod 777 ./test.txt
           sudo echo ${{ steps.semantic.outputs.last_release_version }} >> test.txt
           sudo cat test.txt
           ls -a
