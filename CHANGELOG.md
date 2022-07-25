@@ -1,3 +1,10 @@
+## [1.20.1](https://github.com/Abdellaharrad/versiontest/compare/v1.20.0...v1.20.1) (2022-07-25)
+
+
+### Bug Fixes
+
+* tes ([874c75c](https://github.com/Abdellaharrad/versiontest/commit/874c75c5af082774e388e840467e2efd9aa158e9))
+
 # [1.20.0](https://github.com/Abdellaharrad/versiontest/compare/v1.19.0...v1.20.0) (2022-07-25)
 
 
