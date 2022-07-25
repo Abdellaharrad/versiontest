@@ -30,7 +30,7 @@ jobs:
           git commit -m "docs:test"
           git push
         shell: bash
-      - name: Execute Semantic Release
+      - name: Execute Semantic Releas
         run: |
           npm i @semantic-release/apm-config
           npm i @semantic-release/changelog
