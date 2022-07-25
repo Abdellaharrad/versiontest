@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: 1arp/create-a-file-action@0.2
         with:
-          path: '.github/workflows'
+          path: './.github/workflows'
           file: 'foo.bar'
           content: |
             Hello
