@@ -1,3 +1,10 @@
+# [1.15.0](https://github.com/Abdellaharrad/versiontest/compare/v1.14.36...v1.15.0) (2022-07-25)
+
+
+### Features
+
+* tes ([1408320](https://github.com/Abdellaharrad/versiontest/commit/14083201bfba2d8b0e42a7e656bec1fdbf953115))
+
 ## [1.14.36](https://github.com/Abdellaharrad/versiontest/compare/v1.14.35...v1.14.36) (2022-07-25)
 
 
