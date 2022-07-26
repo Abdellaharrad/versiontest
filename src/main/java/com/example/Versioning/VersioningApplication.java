@@ -9,12 +9,7 @@ import java.io.*;
 
 @SpringBootApplication
 public class VersioningApplication {
-	private File file;
-
-
-
 	public static void main(String[] args) {
 		SpringApplication.run(VersioningApplication.class, args);
 	}
-
 }
