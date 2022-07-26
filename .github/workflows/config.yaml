@@ -25,7 +25,6 @@ jobs:
           git config --global user.email "arradabdellah1@gmail.com"
           git config --global user.name "Abdellaharrad"
           git add .
-          git push
         shell: bash
       - name: Execute Semantic Release
         run: |
@@ -36,6 +35,10 @@ jobs:
           npx semantic-release
         env:
           GITHUB_TOKEN: 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
+      - run: |
+          git config --global user.email "arradabdellah1@gmail.com"
+          git config --global user.name "Abdellaharrad"
+          git push
 
 
 
