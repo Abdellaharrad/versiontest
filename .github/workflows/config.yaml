@@ -33,12 +33,10 @@ jobs:
           npm i @semantic-release/git
           npm i @semantic-release/github
           npx semantic-release
-          git config --global user.email "arradabdellah1@gmail.com"
-          git config --global user.name "Abdellaharrad"
+          git commit -m "test"
           git push
         env:
           GITHUB_TOKEN: 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
-
 
 
 
