@@ -1,3 +1,10 @@
+## [1.22.4](https://github.com/Abdellaharrad/versiontest/compare/v1.22.3...v1.22.4) (2022-07-26)
+
+
+### Performance Improvements
+
+* add controller ([ac5b02a](https://github.com/Abdellaharrad/versiontest/commit/ac5b02a6bac34ac287fec56d55163f04493059fe))
+
 ## [1.22.3](https://github.com/Abdellaharrad/versiontest/compare/v1.22.2...v1.22.3) (2022-07-25)
 
 
