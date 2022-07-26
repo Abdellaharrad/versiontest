@@ -1,3 +1,10 @@
+## [1.22.6](https://github.com/Abdellaharrad/versiontest/compare/v1.22.5...v1.22.6) (2022-07-26)
+
+
+### Performance Improvements
+
+* **TICKET-123:** Test changesBREAKING CHANGE: test semantic ([0077081](https://github.com/Abdellaharrad/versiontest/commit/007708178fa411adaec5617c4da2faa5c39c5e41))
+
 ## [1.22.5](https://github.com/Abdellaharrad/versiontest/compare/v1.22.4...v1.22.5) (2022-07-26)
 
 
