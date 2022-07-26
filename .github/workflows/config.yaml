@@ -30,6 +30,7 @@ jobs:
           npm i @semantic-release/git
           npm i @semantic-release/github
           npx semantic-release
+          git push
         shell: bash
 
 
