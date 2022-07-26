@@ -12,10 +12,11 @@ import java.io.IOException;
 public class VersioningController {
 
     @RequestMapping(value = "/")
-    public String home() throws Exception{ StringBuilder builder = new StringBuilder();
+    public String home() throws Exception{
+        StringBuilder builder = new StringBuilder();
         BufferedReader reader = null;
         try {
-            reader = new BufferedReader(new FileReader("C:\\Abdellah\\4IIR\\StageOritech\\testVersioning\\Versioning\\src\\main\\resources\\test.txt"));
+            reader = new BufferedReader(new FileReader("C:\\Abdellah\\4IIR\\StageOritech\\testVersioning\\Versioning\\src\\main\\resources\\version.txt"));
             String line = null;
             while ((line = reader.readLine()) != null)
                 builder.append(line);

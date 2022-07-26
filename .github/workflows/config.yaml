@@ -27,7 +27,6 @@ jobs:
           git add .
           git commit -m "docs:new version released"
           git push
-          git pull
         shell: bash
       - name: Execute Semantic Release
         run: |
