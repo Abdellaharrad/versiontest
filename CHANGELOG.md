@@ -1,3 +1,16 @@
+# [2.0.0](https://github.com/Abdellaharrad/versiontest/compare/v1.22.6...v2.0.0) (2022-07-26)
+
+
+### Performance Improvements
+
+* **TICKET-123:** Test changes ([047af43](https://github.com/Abdellaharrad/versiontest/commit/047af431b7c565b1f39e8412956fffed09ab5275))
+* **TICKET-123:** Test changesBREAKING CHANGE: test semantic ([e193c41](https://github.com/Abdellaharrad/versiontest/commit/e193c41f8cf89db3f284e06ca5f4e80de866cace))
+
+
+### BREAKING CHANGES
+
+* **TICKET-123:** test semantic
+
 ## [1.22.6](https://github.com/Abdellaharrad/versiontest/compare/v1.22.5...v1.22.6) (2022-07-26)
 
 
