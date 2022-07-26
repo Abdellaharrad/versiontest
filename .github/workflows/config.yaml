@@ -21,9 +21,7 @@ jobs:
         if: steps.semantic.outputs.new_release_published == 'true'
         run: |
           rm ./src/main/resources/test.txt
-          sudo echo ${{ steps.semantic.outputs.new_release_version }} >> ./src/main/resources/test.txt
-          sudo cat ./src/main/resources/test.txt
-          sudo ls ./src/main/resources
+          sudo echo ${{ steps.semantic.outputs.new_release_version }} >> ./src/main/resources/version.txt
           git config --global user.email "arradabdellah1@gmail.com"
           git config --global user.name "Abdellaharrad"
           git add .
