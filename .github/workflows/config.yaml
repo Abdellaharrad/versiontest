@@ -9,7 +9,7 @@ jobs:
     name: Semantic Release
     runs-on: ubuntu-20.04
     steps:
-      - name: Checkout
+      - name: Check
         uses: actions/checkout@v2
       - name: Version Released
         uses: cycjimmy/semantic-release-action@v3
