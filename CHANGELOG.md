@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/Abdellaharrad/versiontest/compare/v2.1.0...v2.1.1) (2022-07-26)
+
+
+### Bug Fixes
+
+* bugs ([cb59722](https://github.com/Abdellaharrad/versiontest/commit/cb59722ca32a79f2dda5e51b253e7ebdabf5b5ba))
+
 # [2.1.0](https://github.com/Abdellaharrad/versiontest/compare/v2.0.10...v2.1.0) (2022-07-26)
 
 
