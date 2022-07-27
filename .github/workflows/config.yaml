@@ -8,6 +8,7 @@ jobs:
     name: Semantic Release
     runs-on: ubuntu-20.04
     steps:
+      #check the commit
       - name: Check
         uses: actions/checkout@v2
       - name: Version Released
@@ -19,6 +20,7 @@ jobs:
       - name: Update version when a new release published
         if: steps.semantic.outputs.new_release_published == 'true'
         run: |
+          
           npm i @semantic-release/apm-config
           npm i @semantic-release/changelog
           npm i @semantic-release/git
@@ -27,6 +29,8 @@ jobs:
           git config --global user.email "arradabdellah1@gmail.com"
           git config --global user.name "Abdellaharrad"
           git add .
+          git commit -m "new version released"
+          git push
           npx semantic-release
         shell: bash
 
