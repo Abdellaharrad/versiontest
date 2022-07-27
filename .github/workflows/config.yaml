@@ -11,17 +11,20 @@ jobs:
       - name: Check
         uses: actions/checkout@v2
       - name: Version Released
-        uses: cycjimmy/semantic-release-action@v3
+        run: |
+        rm ./src/main/resources/version.txt
+        git add .
+        cycjimmy/semantic-release-action@v3
         id: semantic
 
       - name: Update version when a new release published
         if: steps.semantic.outputs.new_release_published == 'true'
         run: |
-          rm ./src/main/resources/version.txt
+        #rm ./src/main/resources/version.txt
           sudo echo ${{ steps.semantic.outputs.new_release_version }} >> ./src/main/resources/version.txt
           git config --global user.email "arradabdellah1@gmail.com"
           git config --global user.name "Abdellaharrad"
-          git add .
-          git commit -m "new version"
+        #git add .
+        #git commit -m "new version"
           git push
         shell: bash
