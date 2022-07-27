@@ -13,8 +13,9 @@ jobs:
       - run : |
           rm ./src/main/resources/version.txt
           git add .
+
       - name: Version Released
-        run: cycjimmy/semantic-release-action@v3
+        uses: cycjimmy/semantic-release-action@v3
         id: semantic
 
       - name: Update version when a new release published
