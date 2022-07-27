@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/Abdellaharrad/versiontest/compare/v2.7.13...v3.0.0) (2022-07-27)
+
+
+### Performance Improvements
+
+* **TICKET-123:** Test changes ([a84e0d0](https://github.com/Abdellaharrad/versiontest/commit/a84e0d08791c835ba8280489e9554d67c2ae9d62))
+
+
+### BREAKING CHANGES
+
+* **TICKET-123:** test semantic
+
 ## [2.7.13](https://github.com/Abdellaharrad/versiontest/compare/v2.7.12...v2.7.13) (2022-07-27)
 
 
