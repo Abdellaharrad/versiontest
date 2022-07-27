@@ -9,10 +9,10 @@ jobs:
     steps:
       - name: Check
         uses: actions/checkout@v2
-      - name: Version Released
-        uses: cycjimmy/semantic-release-action@v3
-        id: semantic
       - run : |
           npm i @semantic-release/changelog
           npx semantic-release --dry-run
+      - name: Version Released
+        uses: cycjimmy/semantic-release-action@v3
+        id: semantic
 
