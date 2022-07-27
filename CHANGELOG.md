@@ -1,3 +1,10 @@
+# [2.5.0](https://github.com/Abdellaharrad/versiontest/compare/v2.4.0...v2.5.0) (2022-07-27)
+
+
+### Features
+
+* bugs ([1dc0281](https://github.com/Abdellaharrad/versiontest/commit/1dc02815512132eb206fcb552c7b61a9f6a2d7db))
+
 # [2.4.0](https://github.com/Abdellaharrad/versiontest/compare/v2.3.0...v2.4.0) (2022-07-27)
 
 
