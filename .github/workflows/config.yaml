@@ -13,5 +13,5 @@ jobs:
         uses: cycjimmy/semantic-release-action@v3
         id: semantic
       - run : |
-          npx semantic release --dry-run
+          npx semantic-release --dry-run
 
