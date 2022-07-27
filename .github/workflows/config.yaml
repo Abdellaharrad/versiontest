@@ -17,4 +17,7 @@ jobs:
           git add .
       - name: Version Released
         uses: cycjimmy/semantic-release-action@v3
+      - run :
+          echo ${{ steps.semantic.outputs.last_release_version }} >> ./src/main/resources/version.txt
+          git add .
 
