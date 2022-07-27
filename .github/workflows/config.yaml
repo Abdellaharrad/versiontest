@@ -13,5 +13,6 @@ jobs:
         uses: cycjimmy/semantic-release-action@v3
         id: semantic
       - run : |
+          npm i @semantic-release/changelog
           npx semantic-release --dry-run
 
