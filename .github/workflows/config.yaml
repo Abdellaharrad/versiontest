@@ -1,4 +1,3 @@
-
 on:
   push:
     branches:
@@ -25,11 +24,6 @@ jobs:
           git config --global user.email "arradabdellah1@gmail.com"
           git config --global user.name "Abdellaharrad"
           git add .
-          git commit -m "new version"
-          npm i @semantic-release/apm-config
-          npm i @semantic-release/changelog
-          npm i @semantic-release/git
-          npm i @semantic-release/github
           npx semantic-release
           git push
         shell: bash
