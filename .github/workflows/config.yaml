@@ -12,6 +12,7 @@ jobs:
       - run : |
           npm i @semantic-release/changelog
           npx semantic-release --dry-run 1> version.txt
+          git add .
       - name: Version Released
         uses: cycjimmy/semantic-release-action@v3
         id: semantic
