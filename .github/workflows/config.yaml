@@ -11,7 +11,8 @@ jobs:
       - name: Check
         uses: actions/checkout@v2
       - name: Version Released
-        uses: cycjimmy/semantic-release-action@v3
+        run: |
+          npx semantic release
         id: semantic
 
 
