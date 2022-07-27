@@ -11,13 +11,10 @@ jobs:
       - name: Check
         uses: actions/checkout@v2
       - run : |
+          rm ./src/main/resources/version.txt
           git config --global user.email "arradabdellah1@gmail.com"
           git config --global user.name "Abdellaharrad"
           git add .
       - name: Version Released
         uses: cycjimmy/semantic-release-action@v3
-      - uses: finnp/create-file-action@master
-        env:
-          FILE_NAME: ./src/main/resources/version.txt
-          FILE_DATA: ${{ steps.semantic.outputs.last_release_version }}
 
