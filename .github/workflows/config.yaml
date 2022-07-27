@@ -10,9 +10,9 @@ jobs:
     steps:
       - name: Check
         uses: actions/checkout@v2
-      -run : |
-        rm ./src/main/resources/version.txt
-        git add .
+      - run : |
+          rm ./src/main/resources/version.txt
+          git add .
       - name: Version Released
         run: cycjimmy/semantic-release-action@v3
         id: semantic
