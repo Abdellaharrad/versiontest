@@ -16,5 +16,6 @@ jobs:
           git config --global user.email "arradabdellah1@gmail.com"
           git config --global user.name "Abdellaharrad"
           git add .
-      extends: cycjimmy/semantic-release-action@v3
+      - name: Version Released
+        uses: cycjimmy/semantic-release-action@v3
 
