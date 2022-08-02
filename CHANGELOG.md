@@ -1,3 +1,23 @@
+# [4.0.0](https://github.com/Abdellaharrad/versiontest/compare/v3.0.1...v4.0.0) (2022-08-02)
+
+
+### Performance Improvements
+
+* **TICKET-123:** Test release ([9129017](https://github.com/Abdellaharrad/versiontest/commit/9129017012d1bec6e441edad3240d9c057f7d155))
+* **TICKET-123:** Test release ([8c01dc6](https://github.com/Abdellaharrad/versiontest/commit/8c01dc65278e000de5c33763b85f5ae2c01de0a7))
+* **TICKET-123:** Test release ([29e66ae](https://github.com/Abdellaharrad/versiontest/commit/29e66aeb63fc39b91d5de1686e2fbf20fb120395))
+* **TICKET-123:** Test release ([c8ed2c4](https://github.com/Abdellaharrad/versiontest/commit/c8ed2c46b76cf604f9ee9a67a8eb9266735ef60c))
+* **TICKET-123:** Test release ([08a20ad](https://github.com/Abdellaharrad/versiontest/commit/08a20ad60586643d271dd5a0a8fb03bf18961da1))
+
+
+### BREAKING CHANGES
+
+* **TICKET-123:** test semantic
+* **TICKET-123:** test semantic
+* **TICKET-123:** test semantic
+* **TICKET-123:** test semantic
+* **TICKET-123:** test semantic
+
 ## [3.0.1](https://github.com/Abdellaharrad/versiontest/compare/v3.0.0...v3.0.1) (2022-07-27)
 
 
