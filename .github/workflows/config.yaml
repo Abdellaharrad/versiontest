@@ -23,7 +23,6 @@ jobs:
           git config --global user.email "arradabdellah1@gmail.com"
           git config --global user.name "Abdellaharrad"
           git add .
-          npm i @semantic-release/changelog
           npx semantic-release
       - name: Create Release
         id: create_release
