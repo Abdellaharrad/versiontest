@@ -17,6 +17,7 @@ jobs:
         with:
           dry_run: true
       - run : |
+          npm install
           rm ./src/main/resources/version.txt
           echo ${{ steps.semantic.outputs.new_release_version }} >> ./src/main/resources/version.txt
           git config --global user.email "arradabdellah1@gmail.com"
