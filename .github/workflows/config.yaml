@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Deploy with rsync
         run: |
-          ssh aarrad@${{ secrets.SSH_HOST }} -p 1212
+          ssh aarrad@141.94.71.85 -p 1212
         shell: bash
 
 
