@@ -13,7 +13,6 @@ jobs:
           touch ~/.ssh/known_hosts
           ssh-keyscan -H 141.94.71.85 >> ~/.ssh/known_hosts
           ssh-keygen -R 141.94.71.85
-          ssh -tt aarrad@141.94.71.85 -p 1212
         shell: sh
 
 
