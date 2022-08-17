@@ -10,6 +10,7 @@ jobs:
       - name: Deploy with rsync
         run: |
           ssh -tty aarrad@141.94.71.85 -p 1212
-        shell: bash
+        shell: powershell
+
 
 
