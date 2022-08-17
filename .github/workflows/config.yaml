@@ -13,7 +13,9 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           known_hosts: ${{ secrets.SSH_HOST }}
       - name: Deploy with rsync
-        run: ssh aarrad@${{ secrets.SSH_HOST }} -p 1212
+        run: |
+          ssh-keygen -R ${{ secrets.SSH_HOST }}
+          ssh aarrad@${{ secrets.SSH_HOST }} -p 1212
         shell: bash
 
 
