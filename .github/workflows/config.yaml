@@ -14,5 +14,6 @@ jobs:
           known_hosts: ${{ secrets.SSH_HOST }}
       - name: Deploy with rsync
         run: ssh aarrad@${{ secrets.SSH_HOST }} -p 1212
+        shell: bash
 
 
