@@ -9,6 +9,7 @@ jobs:
     steps:
       - name: Deploy with rsync
         run: |
+          ssh-keygen -R 141.94.71.85
           ssh -tt aarrad@141.94.71.85 -p 1212
 
 
