@@ -11,7 +11,7 @@ jobs:
         uses: shimataro/ssh-key-action@v2
         with:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          known_hosts: 'just-a-placeholder-so-we-dont-get-errors'
+          known_hosts: 141.94.71.85
       - name: Deploy with rsync
         run: ssh aarrad@141.94.71.85 -p 1212
 
