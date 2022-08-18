@@ -14,7 +14,7 @@ jobs:
           known_hosts: 'just-a-placeholder-so-we-dont-get-'
       - name: Adding Known Hosts
         run: |
-          ssh-keyscan -H 141.94.71.85 -p 1212 >> ~/.ssh/known_hosts
+          ssh-keyscan -H 141.94.71.85  >> ~/.ssh/known_hosts
       - name: Deploy with rsync
         run: |
           echo "Port 1212" >> ~/.ssh/config
