@@ -12,7 +12,9 @@ jobs:
         with:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           known_hosts: 'just-a-placeholder-so-we-dont-get-'
-
+      - name: Adding Known Hosts
+        run: |
+          ssh-keyscan -p 1212 -H 141.94.71.85  >> ~/.ssh/known_hosts
       - name: Deploy with rsync
         run: |
           echo "Port 1212" >> ~/.ssh/config
