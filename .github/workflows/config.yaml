@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Deploy with rsync
         run: |
-          ssh aarrad@141.94.71.85 -p 1212 -tty mkdir ~/.ssh
-        shell: sh
+          ssh aarrad@141.94.71.85 -p 1212 -tty mkdir ~/ssh
+        shell: bash
 
 
