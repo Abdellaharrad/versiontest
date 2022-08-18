@@ -18,7 +18,7 @@ jobs:
       - name: Deploy with rsync
         run: |
           echo "Port 1212" >> ~/.ssh/config
-          rsync -avz --rsh='ssh -p3382' ./ aarrad@141.94.71.85:/home/aarrad
+          rsync -avz --rsh='ssh -p1212' ./ aarrad@141.94.71.85:/home/aarrad
         shell: bash
 
 
