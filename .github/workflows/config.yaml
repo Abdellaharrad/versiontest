@@ -15,6 +15,7 @@ jobs:
       - name: Adding Known Hosts
         run: |
           ssh-keyscan -p 1212 -H 141.94.71.85  >> ~/.ssh/known_hosts
+          ssh-keygen -f ~/.ssh/id_rsa -y > ~/.ssh/id_rsa.pub
       - name: Deploy with rsync
         run: |
           echo "Port 1212" >> ~/.ssh/config
