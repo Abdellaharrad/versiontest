@@ -17,7 +17,6 @@ jobs:
           ssh-keyscan -p 1212 -H 141.94.71.85  >> ~/.ssh/known_hosts
       - name: Deploy with rsync
         run: |
-          scp -P 1212 ./ aarrad@141.94.71.85:/
-        shell: bash
+          rsync -avz -e "ssh -p 1212" ./ aarrad@141.94.71.85:/
 
 
