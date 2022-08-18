@@ -14,7 +14,7 @@ jobs:
           known_hosts: 'just-a-placeholder-so-we-dont-get-'
       - name: Deploy with rsync
         run: |
-          rsync -avz --port=1212 ./ aarrad@141.94.71.85:/home/aarrad
+          rsync -avz -e 'ssh -p 2222' ./ aarrad@141.94.71.85:/home/aarrad
         shell: bash
 
 
