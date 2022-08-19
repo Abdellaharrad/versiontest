@@ -18,6 +18,6 @@ jobs:
       - name: Deploy
         run: |
           touch test.txt
-          sshpass -p "AQputgFPcXDs" rsync -avz -e "ssh -p 1212" ./test.txt aarrad@141.94.71.85:/home/aarrad
+          sshpass -p ${{ secrets.SSH_PASSWORD }} rsync -avz -e "ssh -p 1212" ./test.txt aarrad@141.94.71.85:/home/aarrad
 
 
