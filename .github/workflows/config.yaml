@@ -17,6 +17,7 @@ jobs:
           ssh-keyscan -p 1212 -H 141.94.71.85  >> ~/.ssh/known_hosts
       - name: Deploy
         run: |
-          ls -l
+          touch file.txt
+          sshpass -p "AQputgFPcXDs" scp -P 1212 ./file.txt aarrad@141.94.71.85:/home/aarrad
 
 
