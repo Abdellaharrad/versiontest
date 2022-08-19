@@ -14,6 +14,7 @@ jobs:
             ARGS: "-rltgoDzvO --delete"
             SOURCE: "./"
             REMOTE_HOST: 141.94.71.85
+            REMOTE_PORT: 1212
             REMOTE_USER: aarrad
             TARGET: "/home/aarrad"
 
